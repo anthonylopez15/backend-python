@@ -9,6 +9,8 @@ black = "*"
 flake8 = "*"
 pre-commit = "*"
 sqlalchemy = "*"
+faker = "*"
+pytest = "*"
 
 [dev-packages]
 
