@@ -54,3 +54,5 @@ def test_select_pet():
     assert data in query_pet1
     assert data in query_pet2
     assert data in query_pet3
+
+    engine.execute("DELETE FROM pets WHERE id='{}';".format(pet_id))
