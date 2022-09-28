@@ -15,7 +15,7 @@ class FindUser(FindUserInterface):
         :param user_id: Person id
         :return: Dictionary of the information of the process
         """
-
+        response = None
         validate_entry = isinstance(user_id, int)
 
         if validate_entry:
@@ -29,7 +29,7 @@ class FindUser(FindUserInterface):
         :param name: Person name
         :return: Dictionary with information of the process
         """
-
+        response = None
         validate_entry = isinstance(name, str)
 
         if validate_entry:
@@ -44,7 +44,7 @@ class FindUser(FindUserInterface):
         :param name: Person name
         :return: Dictionary with information of the process
         """
-
+        response = None
         validate_entry = isinstance(user_id, int) and isinstance(name, str)
 
         if validate_entry:
