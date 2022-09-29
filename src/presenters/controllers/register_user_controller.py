@@ -23,7 +23,7 @@ class RegisterUserController:
             if "name" in body_params and "password" in body_params:
                 name = http_request.body["name"]
                 password = http_request.body["password"]
-                response = self.register_user_use_case.registry(
+                response = self.register_user_use_case.register(
                     name=name, password=password
                 )
 
