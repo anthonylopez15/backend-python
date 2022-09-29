@@ -28,7 +28,7 @@ class RegisterUserController:
                 )
 
             else:
-                response = {"Success": False, "Data": None}
+                response = {"Success": False, "Data": response}
 
             if response["Success"] is False:
                 https_error = HttpErrors.error_422()

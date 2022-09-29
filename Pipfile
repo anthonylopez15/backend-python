@@ -11,6 +11,8 @@ pre-commit = "*"
 sqlalchemy = "*"
 faker = "*"
 pytest = "*"
+flask = "*"
+flask-cors = "*"
 
 [dev-packages]
 
